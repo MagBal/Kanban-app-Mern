@@ -1,0 +1,36 @@
+/*
+  Global CSS file
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,900');
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: normal;
+}
+
+::-webkit-input-placeholder {
+	color:#aaa;
+	font-weight: 300;
+}
+::-moz-placeholder {
+	color:#aaa;
+	font-weight: 300;
+}
+:-ms-input-placeholder {
+	color:#aaa;
+	font-weight: 300;
+}
+input:-moz-placeholder {
+	color:#aaa;
+	font-weight: 300;
+}
+
+body {
+	background: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}

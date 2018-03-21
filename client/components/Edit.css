@@ -1,0 +1,15 @@
+.delete {
+    padding: 5px;
+    line-height: 10px;
+	font-weight: 600;
+}
+
+.value {
+    color: #ff9900;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.value:hover {
+    cursor: pointer;
+}

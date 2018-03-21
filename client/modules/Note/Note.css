@@ -1,0 +1,44 @@
+/* Note styles */
+.Note {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.Note > div > div {
+    padding: 4px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #FFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Note span {
+    color: #595959;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Note button {
+    width: 18px; 
+    height: 18px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 14px;
+    padding: 1px;
+    border-radius: 10%;
+    color: #fff;
+    background: #ff9900;
+    cursor: pointer;
+    border: 2px solid #ff9900;
+    transition: ease-in .3s;
+}
+
+.Note button:hover {
+    background: #fff;
+    border: 2px solid #ff9900;
+    color: #ff9900;
+}
